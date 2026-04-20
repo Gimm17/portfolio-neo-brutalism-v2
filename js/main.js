@@ -192,11 +192,13 @@ document.addEventListener("DOMContentLoaded", () => {
     fadeElements.forEach(el => appearOnScroll.observe(el));
 });
 
-// 6. View Counter via CounterAPI
+// 6. View Counter via CounterAPI (proxied to avoid CORS)
 (async () => {
     try {
-        const res  = await fetch('https://api.counterapi.dev/v1/gimm-portfolio-v2/neo-brutalism/up');
-        const data = await res.json();
+        const TARGET = 'https://api.counterapi.dev/v1/gimm-portfolio-v2/neo-brutalism/up';
+        const res    = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(TARGET)}`);
+        const json   = await res.json();
+        const data   = JSON.parse(json.contents);
         document.getElementById('view-count').textContent = (data.count ?? 0).toLocaleString();
     } catch (e) {
         document.getElementById('view-count').textContent = '--';

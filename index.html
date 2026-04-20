@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGIM PRATAMA | DEVELOPER</title>
+    <meta name="description" content="Agim Pratama — Full-Stack Developer specializing in GIS, AI/ML, and modern web applications. Laravel, Python, JavaScript.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- Loading Splash Screen -->
+    <div class="loader" id="loader">
+        <h1><span class="loader-text">AGIM</span></h1>
+        <h1><span class="loader-text" style="animation-delay: 0.1s; color: #fff;">PRATAMA</span></h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo"><span>AGIM</span><span>.</span></div>
+        <div class="nav-links">
+            <a href="#about"   class="hover-target">ABOUT</a>
+            <a href="#projects" class="hover-target">WORK</a>
+            <a href="#contact" class="hover-target">CONTACT</a>
+        </div>
+        <!-- View Counter -->
+        <div class="view-counter hover-target" title="Total Page Views">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+            </svg>
+            <span id="view-count">...</span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text fade-up">
+            <h1 class="bebas">FULL-STACK</h1>
+            <h1 class="bebas"><span class="highlight">DEVELOPER</span></h1>
+            <p>I build fast, clean, and delightful web experiences. From GIS mapping to AI-powered
+                solutions. No BS, just results.</p>
+        </div>
+        <div class="hero-image fade-up">
+            <div class="badge hover-target">HIRE<br>ME</div>
+            <img src="assets/profile.webp" alt="Agim Pratama"
+                onerror="this.src='https://placehold.co/500x600/0b0c10/ccff00?text=AGIM+PRATAMA'">
+        </div>
+    </section>
+
+    <!-- Infinite Marquee 1 -->
+    <div class="marquee-container">
+        <div class="marquee-text">
+            <span>WEB DEVELOPMENT</span> <span>•</span>
+            <span>MACHINE LEARNING</span> <span>•</span>
+            <span>GIS MAPPING</span> <span>•</span>
+            <span>AI EXPERIMENTS</span> <span>•</span>
+            <span>WEB DEVELOPMENT</span> <span>•</span>
+            <span>MACHINE LEARNING</span> <span>•</span>
+            <span>GIS MAPPING</span> <span>•</span>
+            <span>AI EXPERIMENTS</span> <span>•</span>
+        </div>
+    </div>
+
+    <!-- Infinite Marquee 2 (Reverse) -->
+    <div class="marquee-container reverse">
+        <div class="marquee-text">
+            <span>PHP</span> <span>•</span>
+            <span>LARAVEL</span> <span>•</span>
+            <span>PYTHON</span> <span>•</span>
+            <span>TENSORFLOW</span> <span>•</span>
+            <span>JAVASCRIPT</span> <span>•</span>
+            <span>PHP</span> <span>•</span>
+            <span>LARAVEL</span> <span>•</span>
+            <span>PYTHON</span> <span>•</span>
+            <span>TENSORFLOW</span> <span>•</span>
+            <span>JAVASCRIPT</span> <span>•</span>
+        </div>
+    </div>
+
+    <!-- About & Skills -->
+    <section class="section" id="about">
+        <h2 class="section-title fade-up">ABOUT ME</h2>
+        <div class="grid-2">
+            <div class="brutal-card fade-up hover-target">
+                <h3 class="bebas">WHO AM I?</h3>
+                <p>A passionate AI enthusiast and full-stack developer who bridges the gap between traditional software
+                    engineering and modern AI-driven development. I specialize in building production-ready web
+                    applications while actively exploring Machine Learning, Deep Learning, and Computer Vision projects.
+                </p>
+            </div>
+            <div class="brutal-card fade-up hover-target" style="transition-delay: 0.1s;">
+                <h3 class="bebas">TECH ARSENAL</h3>
+                <div class="skills-wrapper">
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">PHP</div>
+                    <div class="skill-tag">Laravel</div>
+                    <div class="skill-tag">CodeIgniter</div>
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">TensorFlow</div>
+                    <div class="skill-tag">Machine Learning</div>
+                    <div class="skill-tag">GIS / Leaflet</div>
+                    <div class="skill-tag">MySQL</div>
+                </div>
+            </div>
+            <div class="brutal-card fade-up hover-target" style="transition-delay: 0.2s;">
+                <h3 class="bebas">EDUCATION</h3>
+                <h4 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem;">STMIK BINA MULIA</h4>
+                <p style="font-weight: 600; margin-bottom: 1.5rem;">Informatics Engineering | Feb 2021 - Dec 2025</p>
+                <div class="skill-tag" style="display: inline-block; font-size: 1.1rem; padding: 0.4rem 1.2rem;">FRESH GRADUATE</div>
+            </div>
+            <div class="brutal-card fade-up hover-target" style="transition-delay: 0.3s;">
+                <h3 class="bebas">WHAT I DO</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li style="margin-bottom: 0.8rem; font-weight: 600; font-size: 1.1rem;">⚡ Full-Stack Web Development</li>
+                    <li style="margin-bottom: 0.8rem; font-weight: 600; font-size: 1.1rem;">🤖 AI & ML Integration</li>
+                    <li style="margin-bottom: 0.8rem; font-weight: 600; font-size: 1.1rem;">🗺️ GIS & Spatial Mapping</li>
+                    <li style="margin-bottom: 0px;   font-weight: 600; font-size: 1.1rem;">🔌 API Design & RESTful Services</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Catalog -->
+    <section class="section" id="projects">
+        <h2 class="section-title fade-up">SELECTED WORK</h2>
+
+        <div class="catalog-grid fade-up">
+
+            <!-- Card 1 -->
+            <div class="catalog-card hover-target" data-project="0">
+                <div class="catalog-img">
+                    <img src="assets/pemwilpalu.webp" alt="Pemwil Palu"
+                        onerror="this.src='https://placehold.co/400x260/0b0c10/ccff00?text=PEMWIL+PALU'">
+                    <div class="catalog-overlay">
+                        <span class="catalog-overlay-text">VIEW PROJECT</span>
+                    </div>
+                </div>
+                <div class="catalog-body">
+                    <h3>PEMWIL PALU</h3>
+                    <span class="catalog-cat">GIS / PUBLIC SECTOR</span>
+                    <p class="catalog-desc">Interactive GIS-based regional mapping system for Palu city government.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="catalog-card hover-target" data-project="1">
+                <div class="catalog-img">
+                    <img src="assets/umkm-banggai.webp" alt="UMKM Banggai"
+                        onerror="this.src='https://placehold.co/400x260/0b0c10/ccff00?text=UMKM+BANGGAI'">
+                    <div class="catalog-overlay">
+                        <span class="catalog-overlay-text">VIEW PROJECT</span>
+                    </div>
+                </div>
+                <div class="catalog-body">
+                    <h3>UMKM BANGGAI</h3>
+                    <span class="catalog-cat">E-COMMERCE</span>
+                    <p class="catalog-desc">E-commerce marketplace empowering local SMEs in Banggai region.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="catalog-card hover-target" data-project="2">
+                <div class="catalog-img">
+                    <img src="assets/cafeqr.webp" alt="Cafe QR"
+                        onerror="this.src='https://placehold.co/400x260/0b0c10/ccff00?text=CAFE+QR'">
+                    <div class="catalog-overlay">
+                        <span class="catalog-overlay-text">VIEW PROJECT</span>
+                    </div>
+                </div>
+                <div class="catalog-body">
+                    <h3>CAFE QR</h3>
+                    <span class="catalog-cat">POS / ORDERING</span>
+                    <p class="catalog-desc">QR-based smart ordering and POS system for modern cafés.</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="catalog-card hover-target" data-project="3">
+                <div class="catalog-img">
+                    <img src="assets/petshop-dijkstra.webp" alt="Petshop Routing"
+                        onerror="this.src='https://placehold.co/400x260/0b0c10/ccff00?text=PETSHOP+ROUTING'">
+                    <div class="catalog-overlay">
+                        <span class="catalog-overlay-text">VIEW PROJECT</span>
+                    </div>
+                </div>
+                <div class="catalog-body">
+                    <h3>PETSHOP ROUTING</h3>
+                    <span class="catalog-cat">ALGORITHMS + MAPS</span>
+                    <p class="catalog-desc">Shortest-path routing to nearby pet shops using Dijkstra's algorithm.</p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="catalog-card hover-target" data-project="4">
+                <div class="catalog-img">
+                    <img src="assets/webtravel.webp" alt="Web Travel"
+                        onerror="this.src='https://placehold.co/400x260/0b0c10/ccff00?text=WEB+TRAVEL'">
+                    <div class="catalog-overlay">
+                        <span class="catalog-overlay-text">VIEW PROJECT</span>
+                    </div>
+                </div>
+                <div class="catalog-body">
+                    <h3>WEB TRAVEL</h3>
+                    <span class="catalog-cat">TRAVEL / BOOKING</span>
+                    <p class="catalog-desc">Travel destination showcase & booking platform with rich UI.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" title="Close">✕</button>
+
+            <!-- Carousel -->
+            <div class="modal-carousel">
+                <div class="carousel-track" id="carousel-track"></div>
+                <button class="carousel-btn prev" id="carousel-prev">◀</button>
+                <button class="carousel-btn next" id="carousel-next">▶</button>
+                <div class="carousel-dots" id="carousel-dots"></div>
+            </div>
+
+            <!-- Details -->
+            <div class="modal-details">
+                <h2 id="modal-title"></h2>
+                <span class="modal-cat" id="modal-cat"></span>
+                <p class="modal-description" id="modal-desc"></p>
+
+                <div class="modal-stack-label">TECH STACK</div>
+                <div class="modal-stack" id="modal-stack"></div>
+
+                <a href="#" target="_blank" class="modal-live-btn hover-target" id="modal-live-btn">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                        <polyline points="15 3 21 3 21 9" />
+                        <line x1="10" y1="14" x2="21" y2="3" />
+                    </svg>
+                    VIEW LIVE
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h1 class="footer-title bebas hover-target">LET'S TALK</h1>
+        <a href="mailto:agimpratamazte@gmail.com" class="contact-btn hover-target">agimpratamazte@gmail.com</a>
+
+        <div class="socials">
+            <a href="https://github.com/Gimm17"                             target="_blank" class="hover-target">Github</a>
+            <a href="https://www.linkedin.com/in/agim-pratama-besa-8884a82b1" target="_blank" class="hover-target">LinkedIn</a>
+            <a href="https://www.instagram.com/zyexcc_/"                    target="_blank" class="hover-target">Instagram</a>
+        </div>
+
+        <p>&copy; 2026 Agim Pratama. Brutalized &amp; Redesigned.</p>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

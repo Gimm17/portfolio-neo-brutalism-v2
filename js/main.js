@@ -192,14 +192,12 @@ document.addEventListener("DOMContentLoaded", () => {
     fadeElements.forEach(el => appearOnScroll.observe(el));
 });
 
-// 6. View Counter — hits.dwyl.com (CORS-friendly, auto-increments on each visit)
+// 6. View Counter — memanggil counter.php (backend sendiri agar bebas CORS)
 (async () => {
     try {
-        const res  = await fetch('https://hits.dwyl.com/Gimm17/portfolio-neo-brutalism-v2.json');
+        const res  = await fetch('./counter.php');
         const data = await res.json();
-        // hits.dwyl returns { "message": "42", ... } where message = hit count
-        const count = parseInt(data.message ?? 0, 10);
-        document.getElementById('view-count').textContent = isNaN(count) ? '--' : count.toLocaleString();
+        document.getElementById('view-count').textContent = (data.count ?? 0).toLocaleString();
     } catch (e) {
         document.getElementById('view-count').textContent = '--';
     }

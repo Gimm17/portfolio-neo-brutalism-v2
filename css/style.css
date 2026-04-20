@@ -131,12 +131,18 @@ nav {
 .view-counter {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: var(--text);
+    color: var(--primary);
     border: 3px solid var(--text);
     box-shadow: 4px 4px 0px var(--primary);
-    overflow: hidden;
+    padding: 0.4rem 1rem;
     transition: var(--transition);
-    text-decoration: none;
-    height: 38px;
+    user-select: none;
 }
 
 .view-counter:hover {
@@ -144,9 +150,20 @@ nav {
     box-shadow: 6px 6px 0px var(--primary);
 }
 
-.view-counter img {
-    height: 100%;
-    display: block;
+.view-counter svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: var(--primary);
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    flex-shrink: 0;
+}
+
+#view-count {
+    min-width: 2ch;
+    display: inline-block;
 }
 
 .logo {

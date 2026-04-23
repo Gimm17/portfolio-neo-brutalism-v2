@@ -182,6 +182,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    // Archive Accordion (Mobile)
+    document.querySelectorAll('.archive-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            // Prevent toggling if clicking the GitHub link
+            if (!e.target.closest('.archive-links a')) {
+                card.classList.toggle('active');
+            }
+        });
+    });
+
     // 5. Scroll Intersection Observer (Fade Up)
     const fadeElements  = document.querySelectorAll('.fade-up');
     const appearOptions = {

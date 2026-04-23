@@ -814,6 +814,92 @@ footer {
 }
 
 /* ==========================================================
+   ARCHIVE / OTHER PROJECTS
+   ========================================================== */
+.archive-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.archive-card {
+    background: #fff;
+    border: var(--border);
+    box-shadow: var(--shadow);
+    padding: 2rem;
+    transition: var(--transition);
+}
+
+.archive-card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0px var(--text);
+    background: var(--bg);
+}
+
+.archive-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--text);
+    padding-bottom: 0.5rem;
+}
+
+.archive-header h3 {
+    font-size: 2.2rem;
+    color: var(--text);
+}
+
+.archive-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: var(--text);
+    color: var(--primary);
+    border: 2px solid var(--text);
+    transition: var(--transition);
+}
+
+.archive-links a:hover {
+    background: var(--primary);
+    color: var(--text);
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px var(--text);
+}
+
+.archive-desc {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.archive-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.archive-tags span {
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: 2px solid var(--text);
+    padding: 0.3rem 0.8rem;
+    background: #fff;
+    box-shadow: 2px 2px 0px var(--text);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+
+/* ==========================================================
    RESPONSIVE
    ========================================================== */
 @media (max-width: 900px) {
@@ -893,6 +979,47 @@ footer {
     .catalog-cat,
     .catalog-desc {
         display: none;
+    }
+
+    /* --- ARCHIVE MOBILE --- */
+    .archive-card {
+        padding: 1rem 1.2rem;
+        box-shadow: 4px 4px 0px var(--text);
+        cursor: pointer;
+        transition: var(--transition);
+    }
+
+    .archive-body {
+        display: none;
+        margin-top: 1rem;
+        border-top: 2px dashed var(--text);
+        padding-top: 1.2rem;
+        animation: fadeIn 0.3s ease forwards;
+    }
+
+    .archive-card.active .archive-body {
+        display: block;
+    }
+
+
+    
+    .archive-card:hover {
+        transform: translate(-3px, -3px);
+        box-shadow: 7px 7px 0px var(--text);
+    }
+    
+    .archive-header h3 {
+        font-size: 1.8rem;
+    }
+    
+    .archive-links a {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .archive-links a svg {
+        width: 18px;
+        height: 18px;
     }
 
     /* --- MODAL MOBILE: bottom sheet style --- */

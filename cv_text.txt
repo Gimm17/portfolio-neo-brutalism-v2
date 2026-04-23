@@ -1,0 +1,116 @@
+AGIM PRATAMA BESA
+Full-Stack Developer  ·  AI / Machine Learning Engineer
+ Palu, Sulawesi Tengah   |    +62 822 5967 1573   |    📍 📞 ✉ agimpratamazte@gmail.com    |   LinkedIn   |   GitHub   | 
+Portfolio
+A B O U T  M E
+Fresh  graduate  in  Informatics  Engineering  with  2+  years  of  hands-on  experience  in  Full-Stack  Web  
+Development and AI/Machine Learning. Proven track record as a freelancer handling diverse projects ranging  
+from website development, GIS-based systems, Machine Learning/Deep Learning models, to data engineering  
+(data scraping & cleaning). Experienced in building end-to-end systems — from architecture design and coding  
+to deployment on production servers. Highly enthusiastic about continuous learning and ready to contribute to  
+the creation of innovative technology solutions.
+W O R K  E X P E R I E N C E
+Freelance Full-Stack Developer & AI Engineer   ·  Self-Employed  ·  Palu, Sulawesi Tengah
+Jan 2023 – Present
+▸Developed 14+ web applications using Laravel & Vue.js for clients in the UMKM, government, and local  
+business sectors
+▸Built and deployed the GIS Pemetaan Wilayah Palu system with 930+ filtered data points
+▸Designed the UMKM Banggai Kepulauan e-catalog platform for thesis research purposes
+▸Built a QR-based ordering system for cafes (Cafe QR Ordering & Soraya Cafe) with real-time order  
+tracking
+▸Created an automation bot to input Posyandu data into a government system using Python + Playwright,  
+assisting healthcare workers with limited digital experience
+Website Operations   ·  PT Digital Desa Indonesia   ·  Palu, Sulawesi Tengah
+Jan 2025 – Mar 2025
+▸Conducted professional internship (KKP) by introducing the DIGIDES platform to villages in the Donggala  
+region, Central Sulawesi
+▸Trained village administrators on the operational procedures of the DIGIDES website for administrative  
+needs
+▸Reported application bugs directly to the relevant team
+E D U C A T I O N
+Bachelor of Informatics Engineering   ·  STMIK Bina Mulia Palu
+Feb 2021 – Dec 2025
+▸Active member of HIMATIK (Informatics Engineering Student Association) — Feb 2021 to Jul 2023
+▸Thesis: Lung Disease Classification Using CNN & Transfer Learning on Chest X-Rays
+O R G A N I Z A T I O N A L  E X P E R I E N C E
+Member  ·  HIMATIK — Informatics Engineering Student Association
+Feb 2021 – Jul 2023
+▸Actively contributed to student organization activities in the Informatics Engineering department at STMIK  
+Bina Mulia Palu
+C E R T I F I C A T I O N S
+Introduction to AI Fundamentals   —  Dicoding Indonesia  |  Feb 2026
+Credential ID: OLZOY3273X65
+Machine Learning, Deep Learning & Artificial Intelligence — Covers AI fundamentals including Neural Networks, ML  
+pipelines, and model implementation.
+Data Analyst Bootcamp (Excel, SQL, Python & Power BI)   —  Karirnex  |  Mar 2026
+Credential ID: 0751/B-4/KBT.DA.4/KRX/III/2026
+Intensive bootcamp covering data analysis using Microsoft Excel, SQL for database manipulation and querying,  
+Python (Pandas, NumPy, data visualization), and Power BI for dashboard creation and business intelligence  
+reporting.
+T E C H N I C A L  S K I L L S
+BackendLaravel 12, CodeIgniter 3/4, PHP Native, Python (Flask, FastAPI), Node.js, REST  
+API
+Frontend Vue.js 3, Inertia.js, Tailwind CSS v4, shadcn-vue, Pinia, Vite, HTML/CSS/JS
+AI / ML / DLTensorFlow, Keras, CNN, Transfer Learning (DenseNet121, VGG16, MobileNet,  
+EfficientNetB0), Computer Vision, YOLO
+Database MySQL, SQLite, Redis, Soketi (WebSocket)
+Automation / 
+ScrapingPython Playwright, OpenPyXL, Pandas, Web Scraping
+GIS & Mapping Leaflet.js, GeoJSON, Web Mapping
+DevOps & 
+DeploymentcPanel, Linux Server, Git, GitHub, Railway, Vercel
+Tools & OthersPower BI (DAX, Custom HTML Visual), Jupyter Notebook, Google Colab, Cursor  
+IDE, Figma
+AI API & Integration Gemini API, Claude API, OpenAI-compatible APIs, Kimi API, GLM API
+Programming 
+LanguagesPython, PHP, JavaScript, SQL, HTML, CSS
+F E A T U R E D  P R O J E C T S  —  W E B  D E V E L O P M E N T
+Pemetaan Wilayah Palu (GIS)   —  Laravel · Vue.js · Leaflet.js · MySQL
+▸Live GIS platform for mapping the Palu City area with 930+ filtered data points. Deployed to production server.
+ 🔗pemwilpalu.gimmhost.my.id
+UMKM Banggai Kepulauan E-Catalog   —  Laravel · Vue.js · MySQL · cPanel
+▸Live e-catalog platform for hundreds of UMKM entrepreneurs in Banggai Kepulauan. Active client project with  
+complete product data and business profiles.
+ 🔗banggaiumkm.gimmhost.my.id
+Petshop Finder Indonesia   —  Node.js · Express.js · Vanilla JS · Google Maps Platform · PWA
+▸PWA (Progressive Web App) to find the nearest pet shops across Indonesia. Integrates Google Maps Platform:  
+Places API (nearbySearch + textSearch via backend proxy), Directions API (navigation routing), and Custom  
+Dark Theme Maps.
+ 🔗petshopfinder.gimmhost.my.id
+Cafe QR Ordering System   —  Laravel · Vue 3 · Pinia · Vite
+▸QR code-based food and beverage ordering system with real-time order tracking. White-labeled for Soraya  
+Cafe as the first client deployment.
+ 🔗cafeqrv2.gimmhost.my.id
+Yovan Trans — Reservation System   —  CodeIgniter 3 · MySQL · Git
+▸Reservation system, company profile, and online booking for Yovan Trans travel services. Includes a test suite.  
+Live and actively used by the client.
+ 🔗webtravel.gimmhost.my.id
+UmkmAI  —  Laravel 12 · Vue 3 · Inertia.js · Soketi · Redis · Multi-AI
+▸Omnichannel AI inbox SaaS platform for UMKM businesses. A single dashboard to reply to WA messages +  
+automated AI responses (multi-AI fallback chain). Real-time WebSocket via Soketi, warm pastel design system,  
+per-conversation Pinia store.
+RevenueForge  —  Laravel · PHP · Node.js
+▸CRM & Finance Dashboard SaaS for tracking revenue, conversion metrics, and cash flow management.  
+Equipped with a complete business analytics dashboard.
+F E A T U R E D  P R O J E C T S  —  A I  /  M A C H I N E  L E A R N I N G
+PulmonaryDetect  —  Python · Flask · TensorFlow.js · MobileNet · WebRTC
+▸Real-time lung disease detection web app from chest X-rays. Client-side inference architecture — the model  
+runs 100% in the browser (TensorFlow.js), medical data is never sent to the server. 4 classes: Normal,  
+Pneumonia, TB, Other. Features: drag & drop + live WebRTC camera at 5 FPS. Accuracy 99.51%, F1-Score  
+99.51%, AUC 0.9999.
+ 🔗pulmonarydetect.gimmhost.my.id
+ALPR Indonesia — Automatic License Plate Recognition   —  Python · FastAPI · YOLOv8 · PaddleOCR · OpenCV  
+· Vue.js 3 · MySQL
+▸AI system for automatically detecting and reading Indonesian vehicle license plates. Supports image, video, and  
+live CCTV stream input via RTSP/WebSocket.
+Implementation of Teachable Machine for Lung Disease Detection in Chest X-Rays (Thesis)   —  Teachable 
+Machine · Python · TensorFlow · Keras · Google Colab
+▸Model trained on 2×2,829 images, exported to TFJS, and re-evaluated in Google Colab on an independent test  
+set (n=814). Generalization results: Accuracy 99.51%, Macro-F1 99.51%, ROC-AUC 0.9999.
+CNN Lung Disease Classification (Journal)   —  Python · TensorFlow · Keras · Google Colab
+▸Systematic deep learning research: 3 CNN from-scratch iterations + comparison of 3 transfer learning models  
+(DenseNet121 → 96.53%, VGG16, EfficientNetB0) on a dataset of 2,570 chest X-rays (3 classes). Iterative  
+process including mode collapse analysis, class_weight tuning, BatchNorm, and learning rate adjustments.
+Twitter Scraper — #MeToo Analytics   —  Python · Playwright · Pandas
+▸Automation scraper application for tweet data under the #MeToo hashtag by time period. Outputs to CSV and  
+XLSX for academic data analysis purposes.

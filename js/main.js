@@ -60,6 +60,14 @@ document.addEventListener("DOMContentLoaded", () => {
             images: ['assets/webtravel.webp'],
             stack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
             liveUrl: 'https://webtravel.gimmhost.my.id/'
+        },
+        {
+            title: 'PULMONARY DETECT',
+            category: 'AI / HEALTHCARE',
+            description: 'An AI-powered pulmonary disease detection web application using a hybrid architecture. It runs MobileNet models directly in the browser via TensorFlow.js for privacy-focused, zero-server-inference of X-Ray images, achieving 99.51% accuracy in detecting Pneumonia and Tuberculosis.',
+            images: ['assets/pulmonarydetect.webp'],
+            stack: ['Python', 'Flask', 'JavaScript', 'TensorFlow.js', 'HTML/CSS'],
+            liveUrl: 'https://pulmonarydetect.gimmhost.my.id/'
         }
     ];
 

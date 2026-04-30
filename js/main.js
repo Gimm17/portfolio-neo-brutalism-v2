@@ -68,6 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
             images: ['assets/pulmonarydetect.webp'],
             stack: ['Python', 'Flask', 'JavaScript', 'TensorFlow.js', 'HTML/CSS'],
             liveUrl: 'https://pulmonarydetect.gimmhost.my.id/'
+        },
+        {
+            title: 'DATA NARASI',
+            category: 'AI / LLM / DATA ANALYTICS',
+            description: 'AI Report Analyst platform — upload CSV/Excel, data is auto-cleaned, visualized with interactive charts, and AI writes business narratives in Bahasa Indonesia. Features 11 analysis types, 6 tone options, and multi-AI fallback chain (Gemini, Claude, Kimi, GLM, MiniMax, AI Nvidia) for maximum reliability.',
+            images: ['assets/datanarasi.webp'],
+            stack: ['Laravel 12', 'Vue 3', 'Inertia.js', 'Python', 'FastAPI', 'Pandas', 'Chart.js', 'MySQL'],
+            liveUrl: 'https://data-narasi-production.up.railway.app/'
         }
     ];
 

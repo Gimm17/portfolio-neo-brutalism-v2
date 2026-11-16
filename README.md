@@ -10,7 +10,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
 [![PHP](https://img.shields.io/badge/PHP-View%20Counter-777BB4?style=for-the-badge&logo=php&logoColor=white)](counter.php)
 
-*A high-contrast Neo-Brutalism developer portfolio featuring 12 Selected Work showcases with multi-slide modal previews, 12 Other Notable Work cards, custom cursor physics, self-hosted PHP view counter, and an embedded BPS AI Assistant widget.*
+*A high-contrast Neo-Brutalism developer portfolio featuring 12 Selected Work showcases with multi-slide modal previews, 12 Other Notable Work cards, custom cursor physics, and a self-hosted PHP view counter.*
 
 </div>
 

@@ -1,0 +1,10 @@
+# Local docs, plans & session scratch files
+projects/
+docs_all_projects/
+implementation_plan.md
+claude --resume *.txt
+views.json
+.env
+*.log
+.DS_Store
+Thumbs.db

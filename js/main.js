@@ -22,36 +22,88 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. Project Data Store
     const projectsData = [
         {
+            title: 'BPS AI ASSISTANT',
+            category: 'AI / HYBRID RAG / GOVTECH',
+            description: 'Official conversational AI statistical assistant for Badan Pusat Statistik (BPS). Combines Hybrid RAG with real-time BPS WebAPI integration across 549 provincial and regency offices, PPID profile lookup, multi-layer ScopeGuard prompt defense, installable PWA, and a standalone embeddable cloud bubble widget.',
+            images: ['assets/bps-chatbot.webp', 'assets/bps-chatbot-chat.webp'],
+            stack: ['Laravel', 'Vue 3', 'BPS WebAPI', 'Hybrid RAG', 'PWA', 'Embeddable Widget'],
+            liveUrl: 'https://bps-chatbot-v2.pinnhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/bps-chatbot-ai-v2'
+        },
+        {
+            title: 'CATUR WEB BPS',
+            category: 'FULL-STACK / ENTERPRISE GOV',
+            description: 'Control of Activity and Time Use Record (CATUR) — full-stack enterprise platform for BPS duty travel assignments, GPS/photo attendance, daily expense reporting, multi-role approval (Admin, Supervisor, Finance), 7-day WITA deadline lock enforcement, and fund disbursement, paired with a Flutter companion mobile app.',
+            images: ['assets/catur.webp'],
+            stack: ['React', 'Express.js', 'PostgreSQL', 'Sequelize', 'Flutter', 'REST API'],
+            liveUrl: 'https://caturv2.gimmhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/CATUR-web-bps'
+        },
+        {
+            title: 'FULX EXTRACTOR',
+            category: 'CHROME EXT / DISTRIBUTED',
+            description: 'FASIH Unique Link eXtractor (FULX) — Chrome Manifest V3 extension + PHP 8.3/MySQL central server & React dashboard coordinating up to 5 PCs in parallel. Overcomes FASIH 1,000-row query limits via recursive region/SLS splitting, atomic task locking, Excel identity-list batching, and combined XLSX exports.',
+            images: ['assets/fulx.webp', 'assets/fulx-panel.webp'],
+            stack: ['Chrome MV3', 'React', 'PHP 8.3', 'MySQL', 'Atomic Locking', 'XLSX'],
+            liveUrl: 'https://fulx.pinnhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/fasih-extract-unique-link'
+        },
+        {
+            title: 'BPS MONITORING FLEXIBLE',
+            category: 'GOVTECH / ANALYTICS',
+            description: 'Flexible statistical activity monitoring platform built with Vue 3 + TypeScript and Laravel 13. Supports multi-role regional scopes, idempotent batch realization input, versioned official snapshots, revision approval tickets, audit logs, CSV exports, and Playwright E2E verification.',
+            images: ['assets/bps-dmf.webp'],
+            stack: ['Laravel 13', 'Vue 3', 'TypeScript', 'MySQL', 'Playwright E2E'],
+            repoUrl: 'https://github.com/Gimm17/DASHBOARD-MONITORING-FLEXIBLE'
+        },
+        {
+            title: 'SIKLAS-NB',
+            category: 'ML / NAIVE BAYES / GOVTECH',
+            description: 'Social Aid Eligibility Classification System for Pangalasiang Village using a custom Laravel 13 Naive Bayes engine + Vue 3 SPA. Features hold-out & k-fold cross-validation evaluation, confusion matrix analytics, multi-file CSV/XLSX bulk import, house photo gallery, approval queue, and PDF reporting (37/37 PHPUnit tests passing).',
+            images: ['assets/siklas-nb.webp', 'assets/siklas-eval.webp'],
+            stack: ['Laravel 13', 'Vue 3', 'Naive Bayes', 'MySQL', 'Sanctum', 'PHPUnit'],
+            liveUrl: 'https://siklas.pinnhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/Sistem-Klasifikasi-Bantuan-Sosial-Desa-Pangalasiang'
+        },
+        {
+            title: 'CRISISMAP',
+            category: 'AI / GEOSPATIAL / VISION',
+            description: 'AI-Powered Humanitarian Infrastructure Damage Assessment Dashboard. Combines a Next.js + Leaflet AOI map workspace, FastAPI backend, PostGIS spatial database, Celery workers, and PyTorch SiamUnet Siamese CNNs to analyze pre/post-disaster satellite imagery and generate reconstruction reports.',
+            images: ['assets/crisismap.webp', 'assets/crisismap-workspace.webp'],
+            stack: ['Next.js', 'FastAPI', 'PyTorch (SiamUnet)', 'PostGIS', 'Leaflet.js', 'Docker'],
+            repoUrl: 'https://github.com/Gimm17/CrisisMap'
+        },
+        {
+            title: 'SAPA BPS SULTENG',
+            category: 'OPS PLATFORM / WHATSAPP API',
+            description: 'WhatsApp Broadcast & Operations Platform for BPS Sulawesi Tengah via Meta WhatsApp Cloud API. Automates employee attendance reminders, publication deadlines, and public opt-in BRS statistical news subscriptions with cron throttling, template sync, and full delivery audit trails.',
+            images: ['assets/sapa-bps.webp'],
+            stack: ['Svelte', 'Node.js', 'Meta WhatsApp API', 'Cron Scheduler', 'MySQL'],
+            repoUrl: 'https://github.com/Gimm17/bps-wa-broadcast'
+        },
+        {
+            title: 'GIMORA DIGITAL',
+            category: 'AGENCY PLATFORM / CMS',
+            description: 'Production web platform and custom CMS for Gimora Digital Solutions. Built with Laravel 12, Vue 3, Inertia.js v2, Tailwind CSS v4, and GSAP animations, featuring dynamic service showcases, portfolio/blog management, admin invoice generation, and 42 Pest PHP automated tests.',
+            images: ['assets/gimora.webp'],
+            stack: ['Laravel 12', 'Vue 3', 'Inertia.js', 'Tailwind v4', 'GSAP', 'Pest PHP'],
+            liveUrl: 'https://gimora.my.id/'
+        },
+        {
+            title: 'MAGANGHUB REMINDER',
+            category: 'PWA / WEB PUSH / AUTOMATION',
+            description: 'Installable Progressive Web App delivering automated Web Push attendance reminders 3x daily (16:30, 20:30, 23:00 WITA) for MagangHub Kemnaker interns. Built with Laravel 12, Vue 3, VAPID Web Push, Service Worker quick-action buttons, and cPanel-ready database queues.',
+            images: ['assets/maganghub-reminder.webp'],
+            stack: ['Laravel 12', 'Vue 3', 'Pinia', 'VAPID Web Push', 'Service Worker'],
+            repoUrl: 'https://github.com/Gimm17/absen-reminder-maganghub'
+        },
+        {
             title: 'CAFE QR',
             category: 'POS / ORDERING',
             description: 'A QR-code based smart ordering system designed for modern cafés. Customers scan a table QR to browse the menu, place orders, and track status in real-time. The kitchen dashboard receives live order feeds.',
             images: ['assets/cafeqr.webp'],
             stack: ['Laravel', 'Vue.js', 'Pinia', 'MySQL', 'REST API', 'QR Code'],
             liveUrl: 'https://cafeqrv2.gimmhost.my.id/'
-        },
-        {
-            title: 'DATA NARASI',
-            category: 'AI / LLM / DATA ANALYTICS',
-            description: 'AI Report Analyst platform — upload CSV/Excel, data is auto-cleaned, visualized with interactive charts, and AI writes business narratives in Bahasa Indonesia. Features 11 analysis types, 6 tone options, and multi-AI fallback chain (Gemini, Claude, Kimi, GLM, MiniMax, AI Nvidia) for maximum reliability.',
-            images: ['assets/datanarasi.webp'],
-            stack: ['Laravel 12', 'Vue 3', 'Inertia.js', 'Python', 'FastAPI', 'Pandas', 'Chart.js', 'MySQL'],
-            liveUrl: 'https://data-narasi-production.up.railway.app/'
-        },
-        {
-            title: 'PEMWIL PALU',
-            category: 'GIS / PUBLIC SECTOR',
-            description: 'An interactive GIS-based mapping system built for Palu city government to manage and visualize regional administrative boundaries. Features include multi-layer spatial data, polygon editing, search functionality, and data export capabilities.',
-            images: ['assets/pemwilpalu.webp'],
-            stack: ['Laravel', 'PHP', 'Leaflet.js', 'MySQL', 'GeoJSON', 'Bootstrap'],
-            liveUrl: 'https://pemwilpalu.gimmhost.my.id/'
-        },
-        {
-            title: 'PETSHOP ROUTING',
-            category: 'ALGORITHMS + MAPS',
-            description: "An interactive map application that finds the shortest path to nearby pet shops using Dijkstra's algorithm. Users can select start/end nodes on the map and visualize the optimal route with distance calculations.",
-            images: ['assets/petshop-dijkstra.webp'],
-            stack: ['CodeIgniter', 'PHP', 'Leaflet.js', 'MySQL', 'Dijkstra Algorithm'],
-            liveUrl: 'https://petshopfinder.gimmhost.my.id/'
         },
         {
             title: 'PULMONARY DETECT',
@@ -62,20 +114,12 @@ document.addEventListener("DOMContentLoaded", () => {
             liveUrl: 'https://pulmonarydetect.gimmhost.my.id/'
         },
         {
-            title: 'UMKM BANGGAI',
-            category: 'E-COMMERCE',
-            description: 'A full-featured e-commerce marketplace empowering local SMEs (UMKM) in the Banggai region. Includes product catalogs, shopping cart, checkout flow, seller dashboards, and order management system.',
-            images: ['assets/umkm-banggai.webp'],
-            stack: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'Bootstrap', 'Midtrans API'],
-            liveUrl: 'https://banggaiumkm.gimmhost.my.id/'
-        },
-        {
-            title: 'WEB TRAVEL',
-            category: 'TRAVEL / BOOKING',
-            description: 'A visually rich travel destination showcase and booking platform. Features destination discovery, package browsing, gallery views, and booking forms with an emphasis on beautiful imagery and smooth UX.',
-            images: ['assets/webtravel.webp'],
-            stack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
-            liveUrl: 'https://webtravel.gimmhost.my.id/'
+            title: 'PEMWIL PALU',
+            category: 'GIS / PUBLIC SECTOR',
+            description: 'An interactive GIS-based mapping system built for Palu city government to manage and visualize regional administrative boundaries. Features include multi-layer spatial data, polygon editing, search functionality, and data export capabilities.',
+            images: ['assets/pemwilpalu.webp'],
+            stack: ['Laravel', 'PHP', 'Leaflet.js', 'MySQL', 'GeoJSON', 'Bootstrap'],
+            liveUrl: 'https://pemwilpalu.gimmhost.my.id/'
         }
     ];
 
@@ -107,8 +151,23 @@ document.addEventListener("DOMContentLoaded", () => {
             stackContainer.appendChild(tag);
         });
 
-        // Live button
-        document.getElementById('modal-live-btn').href = project.liveUrl;
+        // Live & GitHub buttons
+        const liveBtn = document.getElementById('modal-live-btn');
+        const repoBtn = document.getElementById('modal-repo-btn');
+
+        if (project.liveUrl) {
+            liveBtn.href = project.liveUrl;
+            liveBtn.style.display = 'inline-flex';
+        } else {
+            liveBtn.style.display = 'none';
+        }
+
+        if (project.repoUrl) {
+            repoBtn.href = project.repoUrl;
+            repoBtn.style.display = 'inline-flex';
+        } else {
+            repoBtn.style.display = 'none';
+        }
 
         // Carousel slides
         carouselTrack.innerHTML = '';

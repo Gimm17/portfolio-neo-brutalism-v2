@@ -700,6 +700,12 @@ nav {
     box-shadow: 5px 5px 0px var(--text);
 }
 
+.modal-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .modal-live-btn {
     display: inline-flex;
     align-items: center;
@@ -714,6 +720,11 @@ nav {
     transition: var(--transition);
     text-decoration: none;
     letter-spacing: 2px;
+}
+
+.modal-live-btn.modal-repo-btn {
+    background: #fff;
+    color: var(--text);
 }
 
 .modal-live-btn:hover {
@@ -1097,12 +1108,18 @@ footer {
         box-shadow: 2px 2px 0px var(--text);
     }
 
+    .modal-actions {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+
     .modal-live-btn {
         font-size: 1.2rem;
         padding: 0.65rem 1.2rem;
         width: 100%;
         justify-content: center;
         box-shadow: 4px 4px 0px var(--text);
+        box-sizing: border-box;
     }
 
     .modal-live-btn svg {

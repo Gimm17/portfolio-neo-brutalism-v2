@@ -22,28 +22,28 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. Project Data Store
     const projectsData = [
         {
-            title: 'PEMWIL PALU',
-            category: 'GIS / PUBLIC SECTOR',
-            description: 'An interactive GIS-based mapping system built for Palu city government to manage and visualize regional administrative boundaries. Features include multi-layer spatial data, polygon editing, search functionality, and data export capabilities.',
-            images: ['assets/pemwilpalu.webp'],
-            stack: ['Laravel', 'PHP', 'Leaflet.js', 'MySQL', 'GeoJSON', 'Bootstrap'],
-            liveUrl: 'https://pemwilpalu.gimmhost.my.id/'
-        },
-        {
-            title: 'UMKM BANGGAI',
-            category: 'E-COMMERCE',
-            description: 'A full-featured e-commerce marketplace empowering local SMEs (UMKM) in the Banggai region. Includes product catalogs, shopping cart, checkout flow, seller dashboards, and order management system.',
-            images: ['assets/umkm-banggai.webp'],
-            stack: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'Bootstrap', 'Midtrans API'],
-            liveUrl: 'https://banggaiumkm.gimmhost.my.id/'
-        },
-        {
             title: 'CAFE QR',
             category: 'POS / ORDERING',
             description: 'A QR-code based smart ordering system designed for modern cafés. Customers scan a table QR to browse the menu, place orders, and track status in real-time. The kitchen dashboard receives live order feeds.',
             images: ['assets/cafeqr.webp'],
             stack: ['Laravel', 'Vue.js', 'Pinia', 'MySQL', 'REST API', 'QR Code'],
             liveUrl: 'https://cafeqrv2.gimmhost.my.id/'
+        },
+        {
+            title: 'DATA NARASI',
+            category: 'AI / LLM / DATA ANALYTICS',
+            description: 'AI Report Analyst platform — upload CSV/Excel, data is auto-cleaned, visualized with interactive charts, and AI writes business narratives in Bahasa Indonesia. Features 11 analysis types, 6 tone options, and multi-AI fallback chain (Gemini, Claude, Kimi, GLM, MiniMax, AI Nvidia) for maximum reliability.',
+            images: ['assets/datanarasi.webp'],
+            stack: ['Laravel 12', 'Vue 3', 'Inertia.js', 'Python', 'FastAPI', 'Pandas', 'Chart.js', 'MySQL'],
+            liveUrl: 'https://data-narasi-production.up.railway.app/'
+        },
+        {
+            title: 'PEMWIL PALU',
+            category: 'GIS / PUBLIC SECTOR',
+            description: 'An interactive GIS-based mapping system built for Palu city government to manage and visualize regional administrative boundaries. Features include multi-layer spatial data, polygon editing, search functionality, and data export capabilities.',
+            images: ['assets/pemwilpalu.webp'],
+            stack: ['Laravel', 'PHP', 'Leaflet.js', 'MySQL', 'GeoJSON', 'Bootstrap'],
+            liveUrl: 'https://pemwilpalu.gimmhost.my.id/'
         },
         {
             title: 'PETSHOP ROUTING',
@@ -54,14 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
             liveUrl: 'https://petshopfinder.gimmhost.my.id/'
         },
         {
-            title: 'WEB TRAVEL',
-            category: 'TRAVEL / BOOKING',
-            description: 'A visually rich travel destination showcase and booking platform. Features destination discovery, package browsing, gallery views, and booking forms with an emphasis on beautiful imagery and smooth UX.',
-            images: ['assets/webtravel.webp'],
-            stack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
-            liveUrl: 'https://webtravel.gimmhost.my.id/'
-        },
-        {
             title: 'PULMONARY DETECT',
             category: 'AI / HEALTHCARE',
             description: 'An AI-powered pulmonary disease detection web application using a hybrid architecture. It runs MobileNet models directly in the browser via TensorFlow.js for privacy-focused, zero-server-inference of X-Ray images, achieving 99.51% accuracy in detecting Pneumonia and Tuberculosis.',
@@ -70,12 +62,20 @@ document.addEventListener("DOMContentLoaded", () => {
             liveUrl: 'https://pulmonarydetect.gimmhost.my.id/'
         },
         {
-            title: 'DATA NARASI',
-            category: 'AI / LLM / DATA ANALYTICS',
-            description: 'AI Report Analyst platform — upload CSV/Excel, data is auto-cleaned, visualized with interactive charts, and AI writes business narratives in Bahasa Indonesia. Features 11 analysis types, 6 tone options, and multi-AI fallback chain (Gemini, Claude, Kimi, GLM, MiniMax, AI Nvidia) for maximum reliability.',
-            images: ['assets/datanarasi.webp'],
-            stack: ['Laravel 12', 'Vue 3', 'Inertia.js', 'Python', 'FastAPI', 'Pandas', 'Chart.js', 'MySQL'],
-            liveUrl: 'https://data-narasi-production.up.railway.app/'
+            title: 'UMKM BANGGAI',
+            category: 'E-COMMERCE',
+            description: 'A full-featured e-commerce marketplace empowering local SMEs (UMKM) in the Banggai region. Includes product catalogs, shopping cart, checkout flow, seller dashboards, and order management system.',
+            images: ['assets/umkm-banggai.webp'],
+            stack: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'Bootstrap', 'Midtrans API'],
+            liveUrl: 'https://banggaiumkm.gimmhost.my.id/'
+        },
+        {
+            title: 'WEB TRAVEL',
+            category: 'TRAVEL / BOOKING',
+            description: 'A visually rich travel destination showcase and booking platform. Features destination discovery, package browsing, gallery views, and booking forms with an emphasis on beautiful imagery and smooth UX.',
+            images: ['assets/webtravel.webp'],
+            stack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
+            liveUrl: 'https://webtravel.gimmhost.my.id/'
         }
     ];
 

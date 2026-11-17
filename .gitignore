@@ -8,3 +8,13 @@ views.json
 *.log
 .DS_Store
 Thumbs.db
+
+# Security: ignore environment, cPanel, and secret files
+.env.*
+!.env.example
+!.env.*.example
+cpanel.txt
+*cpanel*.txt
+*CPANEL*.txt
+*secret*.txt
+pwsupersecretcpanel.txt

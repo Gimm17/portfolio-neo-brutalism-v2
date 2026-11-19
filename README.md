@@ -10,7 +10,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
 [![PHP](https://img.shields.io/badge/PHP-View%20Counter-777BB4?style=for-the-badge&logo=php&logoColor=white)](counter.php)
 
-*A high-contrast Neo-Brutalism developer portfolio featuring 15 Selected Work showcases with multi-slide modal previews, 16 Other Notable Work cards, custom cursor physics, and a self-hosted PHP view counter.*
+*A high-contrast Neo-Brutalism developer portfolio featuring 18 Selected Work showcases with multi-slide modal previews, 13 Other Notable Work cards, custom cursor physics, and a self-hosted PHP view counter.*
 
 </div>
 
@@ -19,9 +19,9 @@
 ## ✨ Features
 
 - **Neo-Brutalism Visual System** — Bold borders, hard drop shadows, `Bebas Neue` + `Space Grotesk` typography, dual infinite marquees, and custom cursor reactions.
-- **Selected Work Catalog (15 Flagship Projects)** — Covers live production deployments (`BPS AI Assistant`, `CATUR Web BPS`, `FULX Extractor`, `SIKLAS-NB`, `Gimora Digital`, `Cafe QR`, `Pulmonary Detect`, `Pemwil Palu`, `PhotoBooth Studio`, `Prompt Studio`, `PinPlay Bot Web`) plus flagship engineering builds (`BPS Monitoring Flexible`, `CrisisMap`, `SAPA BPS Sulteng`, `MagangHub Reminder`).
+- **Selected Work Catalog (18 Flagship Projects)** — Covers live production deployments (`BPS AI Assistant`, `CATUR Web BPS`, `FULX Extractor`, `BPS Monitoring Flexible`, `SIKLAS-NB`, `Gimora Digital`, `MagangHub Reminder`, `Cafe QR`, `Pulmonary Detect`, `Pemwil Palu`, `PhotoBooth Studio`, `Prompt Studio`, `PinPlay Bot Web`, `Ruang Periksa`, `Verif Location BPS`, `DataNarasi`) plus flagship engineering builds (`CrisisMap`, `SAPA BPS Sulteng`).
 - **Interactive Project Modal** — Multi-image carousel with keyboard navigation (`←` / `→` / `Esc`), tech stack badges, and automatic **VIEW LIVE** / **VIEW GITHUB** actions.
-- **Other Notable Work Archive (16 Projects)** — Responsive desktop cards and mobile accordion highlighting Vercel web showcases, Rust desktop utilities, Chrome extensions, and ML/automation projects.
+- **Other Notable Work Archive (13 Projects)** — Responsive desktop cards and mobile accordion highlighting Vercel web showcases, cPanel web apps (`Threadly`, `SiKN Puskesmas Mapane`), Rust desktop utilities, Chrome extensions, and ML/automation projects.
 - **Self-Hosted View Counter (`counter.php`)** — CORS-free JSON counter persisted on shared hosting without third-party dependencies.
 
 ---

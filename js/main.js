@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: 'Flexible statistical activity monitoring platform built with Vue 3 + TypeScript and Laravel 13. Supports multi-role regional scopes, idempotent batch realization input, versioned official snapshots, revision approval tickets, audit logs, CSV exports, and Playwright E2E verification.',
             images: ['assets/bps-dmf.webp'],
             stack: ['Laravel 13', 'Vue 3', 'TypeScript', 'MySQL', 'Playwright E2E'],
+            liveUrl: 'https://bps-dashflex.pinnhost.my.id/',
             repoUrl: 'https://github.com/Gimm17/DASHBOARD-MONITORING-FLEXIBLE'
         },
         {
@@ -95,6 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: 'Installable Progressive Web App delivering automated Web Push attendance reminders 3x daily (16:30, 20:30, 23:00 WITA) for MagangHub Kemnaker interns. Built with Laravel 12, Vue 3, VAPID Web Push, Service Worker quick-action buttons, and cPanel-ready database queues.',
             images: ['assets/maganghub-reminder.webp'],
             stack: ['Laravel 12', 'Vue 3', 'Pinia', 'VAPID Web Push', 'Service Worker'],
+            liveUrl: 'https://absendong.pinnhost.my.id/',
             repoUrl: 'https://github.com/Gimm17/absen-reminder-maganghub'
         },
         {
@@ -150,6 +152,33 @@ document.addEventListener("DOMContentLoaded", () => {
             stack: ['React 19', 'GSAP', 'Vite', 'Discord Bot', 'Lavalink'],
             liveUrl: 'https://pin-play-website.vercel.app/',
             repoUrl: 'https://github.com/Gimm17/PinPlay-Website'
+        },
+        {
+            title: 'RUANG PERIKSA',
+            category: 'GOVTECH / AI AUDIT',
+            description: 'Automated BPS statistical publication QA system built with Laravel 13, Vue 3, Inertia.js v2, and TypeScript. Extracts PDF page text and table structures via Poppler, evaluates layout, narrative consistency, and Excel table parity with rule-based + AI checks, and exports audit workbooks via PhpSpreadsheet.',
+            images: ['assets/ruang-periksa.webp', 'assets/ruang-periksa-dash.webp'],
+            stack: ['Laravel 13', 'Vue 3', 'Inertia.js v2', 'TypeScript', 'Poppler', 'PhpSpreadsheet', 'Playwright'],
+            liveUrl: 'https://bps-cek-publikasi.pinnhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/bps-revisi-publikasi'
+        },
+        {
+            title: 'VERIF LOCATION BPS',
+            category: 'GIS / SPATIAL VERIFICATION',
+            description: 'Business Location Recovery & Spatial Verification platform for BPS Kota Palu (SBR/SE2026). Combines an interactive Leaflet.js map workspace, Excel dataset batch import, multi-role Sanctum verification workflows, and field coordinate validation built with Laravel 13, Vue 3, and Pinia.',
+            images: ['assets/verif-location.webp'],
+            stack: ['Laravel 13', 'Vue 3', 'Pinia', 'Leaflet.js', 'Sanctum', 'Excel'],
+            liveUrl: 'https://bps-verif-location.pinnhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/Business-Location-Verification-v2'
+        },
+        {
+            title: 'DATA NARASI',
+            category: 'AI / DATA ANALYTICS',
+            description: 'AI Report Analyst platform enabling users to upload CSV/Excel datasets for automated cleaning, exploratory statistics, interactive Chart.js visualizations, and Bahasa Indonesia executive narratives powered by FastAPI + Pandas with multi-AI provider fallback.',
+            images: ['assets/datanarasi.webp'],
+            stack: ['Laravel 12', 'Vue 3', 'Inertia.js', 'Python', 'FastAPI', 'Pandas', 'Chart.js', 'MySQL'],
+            liveUrl: 'https://data-narasi.pinnhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/data-narasi'
         }
     ];
 

@@ -1,49 +1,26 @@
-<div align="center">
+# AGIM. — Neo-Brutalism Portfolio v2
 
-# ⚡ Agim Pratama — Neo-Brutalism Portfolio (v2)
+**Production showcase for Agim Pratama** — highlighting 18 flagship web/AI/GIS builds and 13 utilities, complete with live previews and multi-slide carousels.
 
-### Personal Developer Portfolio Showcase (`https://portfolio.gimmhost.my.id`)
+[![Live Site](https://img.shields.io/badge/LIVE-portfolio.gimmhost.my.id-ccff00?style=flat-square&labelColor=0b0c10)](https://portfolio.gimmhost.my.id/)
+![Vanilla JS](https://img.shields.io/badge/HTML%2FCSS%2FJS-Zero_Framework-111?style=flat-square)
+![PHP Counter](https://img.shields.io/badge/PHP-View_Counter-777BB4?style=flat-square)
 
-[![Live](https://img.shields.io/badge/Live-portfolio.gimmhost.my.id-ccff00?style=for-the-badge&labelColor=0b0c10)](https://portfolio.gimmhost.my.id/)
-[![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/)
-[![CSS3](https://img.shields.io/badge/CSS3-Neo--Brutalism-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
-[![PHP](https://img.shields.io/badge/PHP-View%20Counter-777BB4?style=for-the-badge&logo=php&logoColor=white)](counter.php)
+![Portfolio Live Preview](docs/screenshots/live-preview.webp)
 
-*A high-contrast Neo-Brutalism developer portfolio featuring 18 Selected Work showcases with multi-slide modal previews, 13 Other Notable Work cards, custom cursor physics, and a self-hosted PHP view counter.*
+## Architecture & Highlights
 
-</div>
+| Component | Implementation | File |
+| :--- | :--- | :--- |
+| **Layout & Catalog** | 18 Selected Work cards (6×3) + 13 Archive cards | [`index.html`](index.html) |
+| **Visual System** | Hard 4px borders, offset shadows, `Bebas Neue` + `Space Grotesk` | [`css/style.css`](css/style.css) |
+| **Interactivity** | Multi-slide modal carousel, custom cursor, accordion, keyboard nav | [`js/main.js`](js/main.js) |
+| **Telemetry** | Self-hosted JSON visitor counter without external analytics | [`counter.php`](counter.php) |
 
----
-
-## ✨ Features
-
-- **Neo-Brutalism Visual System** — Bold borders, hard drop shadows, `Bebas Neue` + `Space Grotesk` typography, dual infinite marquees, and custom cursor reactions.
-- **Selected Work Catalog (18 Flagship Projects)** — Covers live production deployments (`BPS AI Assistant`, `CATUR Web BPS`, `FULX Extractor`, `BPS Monitoring Flexible`, `SIKLAS-NB`, `Gimora Digital`, `MagangHub Reminder`, `Cafe QR`, `Pulmonary Detect`, `Pemwil Palu`, `PhotoBooth Studio`, `Prompt Studio`, `PinPlay Bot Web`, `Ruang Periksa`, `Verif Location BPS`, `DataNarasi`) plus flagship engineering builds (`CrisisMap`, `SAPA BPS Sulteng`).
-- **Interactive Project Modal** — Multi-image carousel with keyboard navigation (`←` / `→` / `Esc`), tech stack badges, and automatic **VIEW LIVE** / **VIEW GITHUB** actions.
-- **Other Notable Work Archive (13 Projects)** — Responsive desktop cards and mobile accordion highlighting Vercel web showcases, cPanel web apps (`Threadly`, `SiKN Puskesmas Mapane`), Rust desktop utilities, Chrome extensions, and ML/automation projects.
-- **Self-Hosted View Counter (`counter.php`)** — CORS-free JSON counter persisted on shared hosting without third-party dependencies.
-
----
-
-## 📁 Structure
-
-```text
-portfolio/
-├── index.html          # Main portfolio layout, Selected Work & Archive sections
-├── css/style.css       # Neo-Brutalism theme, grid, modal & mobile responsive styles
-├── js/main.js          # Project data store, modal/carousel controller & view counter
-├── counter.php         # Lightweight PHP page-view counter endpoint
-└── assets/             # Optimized WebP project screenshots & profile assets
-```
-
----
-
-## 🚀 Local Preview
+## Quick Preview
 
 ```bash
-# Serve static files locally (or with PHP for counter.php)
-php -S 127.0.0.1:8000
+php -S 127.0.0.1:8080
 ```
 
-Open `http://127.0.0.1:8000` in your browser.
+Open `http://127.0.0.1:8080` to run both static frontend and `counter.php` locally.

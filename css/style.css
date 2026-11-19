@@ -862,6 +862,12 @@ footer {
     color: var(--text);
 }
 
+.archive-links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .archive-links a {
     display: inline-flex;
     align-items: center;
@@ -1023,7 +1029,13 @@ footer {
         font-size: 1.8rem;
     }
     
-    .archive-links a {
+    .archive-links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.archive-links a {
         width: 36px;
         height: 36px;
     }

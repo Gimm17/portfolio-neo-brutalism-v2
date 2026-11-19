@@ -103,7 +103,8 @@ document.addEventListener("DOMContentLoaded", () => {
             description: 'A QR-code based smart ordering system designed for modern cafés. Customers scan a table QR to browse the menu, place orders, and track status in real-time. The kitchen dashboard receives live order feeds.',
             images: ['assets/cafeqr.webp'],
             stack: ['Laravel', 'Vue.js', 'Pinia', 'MySQL', 'REST API', 'QR Code'],
-            liveUrl: 'https://cafeqrv2.gimmhost.my.id/'
+            liveUrl: 'https://cafeqrv2.gimmhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/cafe-qr-ordering-v2'
         },
         {
             title: 'PULMONARY DETECT',
@@ -111,7 +112,8 @@ document.addEventListener("DOMContentLoaded", () => {
             description: 'An AI-powered pulmonary disease detection web application using a hybrid architecture. It runs MobileNet models directly in the browser via TensorFlow.js for privacy-focused, zero-server-inference of X-Ray images, achieving 99.51% accuracy in detecting Pneumonia and Tuberculosis.',
             images: ['assets/pulmonarydetect.webp'],
             stack: ['Python', 'Flask', 'JavaScript', 'TensorFlow.js', 'HTML/CSS'],
-            liveUrl: 'https://pulmonarydetect.gimmhost.my.id/'
+            liveUrl: 'https://pulmonarydetect.gimmhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/PulmonaryDetect-Advanced-Lung-Disease-Detection'
         },
         {
             title: 'PEMWIL PALU',
@@ -119,7 +121,35 @@ document.addEventListener("DOMContentLoaded", () => {
             description: 'An interactive GIS-based mapping system built for Palu city government to manage and visualize regional administrative boundaries. Features include multi-layer spatial data, polygon editing, search functionality, and data export capabilities.',
             images: ['assets/pemwilpalu.webp'],
             stack: ['Laravel', 'PHP', 'Leaflet.js', 'MySQL', 'GeoJSON', 'Bootstrap'],
-            liveUrl: 'https://pemwilpalu.gimmhost.my.id/'
+            liveUrl: 'https://pemwilpalu.gimmhost.my.id/',
+            repoUrl: 'https://github.com/Gimm17/Pemetaan-wilayah'
+        },
+        {
+            title: 'PHOTOBOOTH STUDIO',
+            category: 'CLIENT-SIDE / WEBGL / PWA',
+            description: 'Privacy-first browser photo booth studio built with React, TypeScript, and Zustand. Captures live camera shots entirely on-device with zero server uploads, offering 35mm retro film shaders, custom frame margin cropping, sticker personalization, 300 DPI strip export, and local IndexedDB gallery storage.',
+            images: ['assets/photobooth.webp'],
+            stack: ['React', 'TypeScript', 'Zustand', 'Canvas / WebGL', 'IndexedDB', 'Playwright'],
+            liveUrl: 'https://photobooth-neon-alpha.vercel.app/',
+            repoUrl: 'https://github.com/Gimm17/PhotoBooth'
+        },
+        {
+            title: 'PROMPT STUDIO',
+            category: 'NEXT.JS 16 / AI PROMPT',
+            description: 'Viral AI image & multi-scene video prompt builder ("The Man Who Can\'t Be Moved") built with Next.js 16, React 19, Tailwind CSS, and Upstash Redis (5,700+ views). Supports 21 scene presets, 30+ character slots, couple positioning, 130 artists across 5 regions, and structured multi-scene camera timelines.',
+            images: ['assets/promptstudio.webp'],
+            stack: ['Next.js 16', 'React 19', 'TypeScript', 'Upstash Redis', 'Tailwind CSS'],
+            liveUrl: 'https://man-who-cant-be-moved-prompt-genera.vercel.app/',
+            repoUrl: 'https://github.com/Gimm17/ManWhoCantBeMoved-PromptGenerator'
+        },
+        {
+            title: 'PINPLAY BOT WEB',
+            category: 'REACT 19 / GSAP / DISCORD',
+            description: 'Official web platform, feature showcase, interactive command directory, setup guide, and dashboard portal for PinPlay — a high-definition Discord Music Bot with Spotify integration, real-time audio filters, and Lavalink node streaming.',
+            images: ['assets/pinplay.webp'],
+            stack: ['React 19', 'GSAP', 'Vite', 'Discord Bot', 'Lavalink'],
+            liveUrl: 'https://pin-play-website.vercel.app/',
+            repoUrl: 'https://github.com/Gimm17/PinPlay-Website'
         }
     ];
 

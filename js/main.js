@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: 'VERIF LOCATION BPS',
             category: 'GIS / SPATIAL VERIFICATION',
             description: 'Business Location Recovery & Spatial Verification platform for BPS Kota Palu (SBR/SE2026). Combines an interactive Leaflet.js map workspace, Excel dataset batch import, multi-role Sanctum verification workflows, and field coordinate validation built with Laravel 13, Vue 3, and Pinia.',
-            images: ['assets/verif-location.webp'],
+            images: ['assets/verif-location.webp', 'assets/verif-location-map.webp'],
             stack: ['Laravel 13', 'Vue 3', 'Pinia', 'Leaflet.js', 'Sanctum', 'Excel'],
             liveUrl: 'https://bps-verif-location.pinnhost.my.id/',
             repoUrl: 'https://github.com/Gimm17/Business-Location-Verification-v2'
